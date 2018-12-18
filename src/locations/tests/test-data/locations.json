@@ -1,0 +1,18 @@
+[
+    {
+        "defaultVolume": "42",
+        "name": "New York",
+        "timezone": "America/New_York",
+        "sonosAddress": "127.0.0.1",
+        "spotifyRegion": "US",
+        "spotifyMarket": "US"
+    },
+    {
+        "defaultVolume": "50",
+        "name": "London",
+        "timezone": "Europe/London",
+        "sonosAddress": "127.0.0.1",
+        "spotifyRegion": "EU",
+        "spotifyMarket": "GB"
+    }
+]

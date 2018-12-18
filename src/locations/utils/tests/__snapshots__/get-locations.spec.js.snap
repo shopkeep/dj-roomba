@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`get-locations generates a locations list from the environment variables 1`] = `
+Array [
+  Object {
+    "defaultVolume": "42",
+    "device": Sonos {
+      "_events": Object {
+        "newListener": [Function],
+      },
+      "_eventsCount": 1,
+      "host": "127.0.0.1",
+      "options": Object {
+        "endpoints": Object {
+          "device": "/DeviceProperties/Control",
+          "rendering": "/MediaRenderer/RenderingControl/Control",
+          "transport": "/MediaRenderer/AVTransport/Control",
+        },
+        "spotify": Object {
+          "region": "3079",
+        },
+      },
+      "port": 1400,
+    },
+    "name": "New York",
+    "sonosAddress": "127.0.0.1",
+    "spotifyMarket": "US",
+    "spotifyRegion": "US",
+    "timezone": "America/New_York",
+  },
+  Object {
+    "defaultVolume": "50",
+    "device": Sonos {
+      "_events": Object {
+        "newListener": [Function],
+      },
+      "_eventsCount": 1,
+      "host": "127.0.0.1",
+      "options": Object {
+        "endpoints": Object {
+          "device": "/DeviceProperties/Control",
+          "rendering": "/MediaRenderer/RenderingControl/Control",
+          "transport": "/MediaRenderer/AVTransport/Control",
+        },
+        "spotify": Object {
+          "region": "2311",
+        },
+      },
+      "port": 1400,
+    },
+    "name": "London",
+    "sonosAddress": "127.0.0.1",
+    "spotifyMarket": "GB",
+    "spotifyRegion": "EU",
+    "timezone": "Europe/London",
+  },
+]
+`;

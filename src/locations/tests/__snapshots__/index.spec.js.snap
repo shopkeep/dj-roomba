@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`locations getLocation when matching on location name returns a matching location 1`] = `
+Object {
+  "name": "New York",
+  "player": "mock-player",
+  "spotifyMarket": "US",
+}
+`;
+
+exports[`locations getLocation when matching on users timezone returns a matching location 1`] = `
+Object {
+  "name": "London",
+  "player": "mock-player",
+  "spotifyMarket": "GB",
+}
+`;
+
+exports[`locations getLocations returns a list of locations 1`] = `
+Array [
+  Object {
+    "defaultVolume": "42",
+    "name": "New York",
+    "sonosAddress": "127.0.0.1",
+    "spotifyMarket": "US",
+    "spotifyRegion": "US",
+    "timezone": "America/New_York",
+  },
+  Object {
+    "defaultVolume": "50",
+    "name": "London",
+    "sonosAddress": "127.0.0.1",
+    "spotifyMarket": "GB",
+    "spotifyRegion": "EU",
+    "timezone": "Europe/London",
+  },
+]
+`;

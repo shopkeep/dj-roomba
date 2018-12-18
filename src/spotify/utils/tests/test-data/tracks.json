@@ -1,0 +1,555 @@
+{
+    "body": {
+        "tracks": {
+            "href": "https://api.spotify.com/v1/search?query=track%3A%22under+the+bridge%22+artist%3A%22red+hot+chili+peppers%22&type=track&market=GB&offset=0&limit=20",
+            "items": [
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                                "id": "0L8ExT028jH3ddEcZwqJJ5",
+                                "name": "Red Hot Chili Peppers",
+                                "type": "artist",
+                                "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/30Perjew8HyGkdSmqguYyg",
+                        "id": "30Perjew8HyGkdSmqguYyg",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/5a6a1c6514398dc4004c6348a83d77694a3883d4",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/5ec4ff29311f065813234bdeee7c1364960f0c3e",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/0fe6b80fd539eb74825b58c3fa62db459fa76b68",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Blood Sugar Sex Magik (Deluxe Version)",
+                        "release_date": "1991-09-24",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:30Perjew8HyGkdSmqguYyg"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                            "id": "0L8ExT028jH3ddEcZwqJJ5",
+                            "name": "Red Hot Chili Peppers",
+                            "type": "artist",
+                            "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 264306,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USWB19901576"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/3d9DChrdc6BOeFsbrZ3Is0",
+                    "id": "3d9DChrdc6BOeFsbrZ3Is0",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under The Bridge",
+                    "popularity": 82,
+                    "preview_url": "https://p.scdn.co/mp3-preview/90e41778392f27b6f7dd82db4c90916b3727aa6a?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 11,
+                    "type": "track",
+                    "uri": "spotify:track:3d9DChrdc6BOeFsbrZ3Is0"
+                },
+                {
+                    "album": {
+                        "album_type": "compilation",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                                "id": "0L8ExT028jH3ddEcZwqJJ5",
+                                "name": "Red Hot Chili Peppers",
+                                "type": "artist",
+                                "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/53tvjWbVNZKd3CvpENkzOC"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/53tvjWbVNZKd3CvpENkzOC",
+                        "id": "53tvjWbVNZKd3CvpENkzOC",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/55cc31d3efa495d05e034146331553db0a747cf5",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/a6cdb66f1035edb25b045ddc4fcce7908baa043d",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/35f5e13e4e9b1953f03534def9fa879dc202eb50",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Greatest Hits",
+                        "release_date": "2003-11-18",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:53tvjWbVNZKd3CvpENkzOC"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                            "id": "0L8ExT028jH3ddEcZwqJJ5",
+                            "name": "Red Hot Chili Peppers",
+                            "type": "artist",
+                            "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 265506,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USWB19901576"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/23NPGXlSaIqWzvxIRhM2oG"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/23NPGXlSaIqWzvxIRhM2oG",
+                    "id": "23NPGXlSaIqWzvxIRhM2oG",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under The Bridge",
+                    "popularity": 65,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5c052c976f9ad6610a1e8daf79e467e1e3943632?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:23NPGXlSaIqWzvxIRhM2oG"
+                },
+                {
+                    "album": {
+                        "album_type": "compilation",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                                "id": "0L8ExT028jH3ddEcZwqJJ5",
+                                "name": "Red Hot Chili Peppers",
+                                "type": "artist",
+                                "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/6kLm0YrEESYq7yszohzkA1"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/6kLm0YrEESYq7yszohzkA1",
+                        "id": "6kLm0YrEESYq7yszohzkA1",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/a0995e38da4b8b1b6a4b97c44d6cba12af079171",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/1fc78fb83e0eeb55488cb3553bd6eb3959b2ced0",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/4d6e47c29579fa529db5d4d4c8da794d9b0a40e9",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Greatest Hits",
+                        "release_date": "2003-11-18",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:6kLm0YrEESYq7yszohzkA1"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                            "id": "0L8ExT028jH3ddEcZwqJJ5",
+                            "name": "Red Hot Chili Peppers",
+                            "type": "artist",
+                            "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 265506,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USWB19901576"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4zkzkEQGjfzmq0tVzpsMdM"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/4zkzkEQGjfzmq0tVzpsMdM",
+                    "id": "4zkzkEQGjfzmq0tVzpsMdM",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under The Bridge",
+                    "popularity": 39,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5c052c976f9ad6610a1e8daf79e467e1e3943632?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:4zkzkEQGjfzmq0tVzpsMdM"
+                },
+                {
+                    "album": {
+                        "album_type": "compilation",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                                "id": "0L8ExT028jH3ddEcZwqJJ5",
+                                "name": "Red Hot Chili Peppers",
+                                "type": "artist",
+                                "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/7aOFj1yM42sm2gzmlPidPP"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/7aOFj1yM42sm2gzmlPidPP",
+                        "id": "7aOFj1yM42sm2gzmlPidPP",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/e6947bf08107a5f990e5b6a9989ad90d99472c2e",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/5d923faa3a4df99d6ce5b603fb2b200d3e908b46",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/828e3ded367beb594c95a8420263be0b9a4e88c5",
+                                "width": 64
+                            }
+                        ],
+                        "name": "The Studio Album Collection 1991 - 2011",
+                        "release_date": "2014-12-12",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:7aOFj1yM42sm2gzmlPidPP"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                            "id": "0L8ExT028jH3ddEcZwqJJ5",
+                            "name": "Red Hot Chili Peppers",
+                            "type": "artist",
+                            "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 265506,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USWB19901576"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1MMlmA1APa0MevW3Bm2PpE"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/1MMlmA1APa0MevW3Bm2PpE",
+                    "id": "1MMlmA1APa0MevW3Bm2PpE",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under The Bridge",
+                    "popularity": 36,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5c052c976f9ad6610a1e8daf79e467e1e3943632?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 11,
+                    "type": "track",
+                    "uri": "spotify:track:1MMlmA1APa0MevW3Bm2PpE"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                                "id": "0L8ExT028jH3ddEcZwqJJ5",
+                                "name": "Red Hot Chili Peppers",
+                                "type": "artist",
+                                "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1p43Uwq9mU8WCF6wQR0XFq"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/1p43Uwq9mU8WCF6wQR0XFq",
+                        "id": "1p43Uwq9mU8WCF6wQR0XFq",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/27e5e75471c86e8a956e3113e4e09e304d9a22f7",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/b2ea7a89024b2824640bd6b2d132d442c4d071d0",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/dad1d7e30b3f1e29d5ff47d1f9cdb1bd11056485",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Woodstock 1994 (Live)",
+                        "release_date": "2015-01-26",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:1p43Uwq9mU8WCF6wQR0XFq"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0L8ExT028jH3ddEcZwqJJ5",
+                            "id": "0L8ExT028jH3ddEcZwqJJ5",
+                            "name": "Red Hot Chili Peppers",
+                            "type": "artist",
+                            "uri": "spotify:artist:0L8ExT028jH3ddEcZwqJJ5"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 290520,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "QM6MZ1498870"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/44ypSpvvjNlGBMJcCh3ke5"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/44ypSpvvjNlGBMJcCh3ke5",
+                    "id": "44ypSpvvjNlGBMJcCh3ke5",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under the Bridge (Live)",
+                    "popularity": 17,
+                    "preview_url": "https://p.scdn.co/mp3-preview/22edcc99b1afa25a39c01f1361b70760284695dc?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 13,
+                    "type": "track",
+                    "uri": "spotify:track:44ypSpvvjNlGBMJcCh3ke5"
+                },
+                {
+                    "album": {
+                        "album_type": "album",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/4St65YtRYE8w73lrc1GNKM"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/4St65YtRYE8w73lrc1GNKM",
+                                "id": "4St65YtRYE8w73lrc1GNKM",
+                                "name": "Red Hot Chili Peppers Tribute Band",
+                                "type": "artist",
+                                "uri": "spotify:artist:4St65YtRYE8w73lrc1GNKM"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/3TIGkvDGvr96kDqHWsPrBE"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/3TIGkvDGvr96kDqHWsPrBE",
+                        "id": "3TIGkvDGvr96kDqHWsPrBE",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/753f80bc288bcb03a8ac3ba4d3f925f72e5a560d",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/e191eb9b7a8a76919491f084807222d8a941a934",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/72e252380060cc1b7b40797ce0c52b7628c34f2a",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Red Hot Chili Peppers:a Guitar Tribute To",
+                        "release_date": "2004-09-14",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:3TIGkvDGvr96kDqHWsPrBE"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4St65YtRYE8w73lrc1GNKM"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/4St65YtRYE8w73lrc1GNKM",
+                            "id": "4St65YtRYE8w73lrc1GNKM",
+                            "name": "Red Hot Chili Peppers Tribute Band",
+                            "type": "artist",
+                            "uri": "spotify:artist:4St65YtRYE8w73lrc1GNKM"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 259240,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "US4KS0401784"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/1MBdtu6XKRL0CNn9frohai"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/1MBdtu6XKRL0CNn9frohai",
+                    "id": "1MBdtu6XKRL0CNn9frohai",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under The Bridge Karaoke Version",
+                    "popularity": 12,
+                    "preview_url": "https://p.scdn.co/mp3-preview/43fc108b65086ba785b7c2ad8083886882c0c867?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 9,
+                    "type": "track",
+                    "uri": "spotify:track:1MBdtu6XKRL0CNn9frohai"
+                },
+                {
+                    "album": {
+                        "album_type": "compilation",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                                "name": "Various Artists",
+                                "type": "artist",
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0EfUKn64vJoiRlRXFVtcT8"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0EfUKn64vJoiRlRXFVtcT8",
+                        "id": "0EfUKn64vJoiRlRXFVtcT8",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/6b0d306e2b844f5945951292feeec8c3af18f67a",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/d4789a4130113557f54346491c47042db03e3ca1",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/3888151f9bd0057622568105214acbed7d6eab20",
+                                "width": 64
+                            }
+                        ],
+                        "name": "World's Greatest Rock Anthems - The only Rock Tributes album you'll ever need!",
+                        "release_date": "2010-01-04",
+                        "release_date_precision": "day",
+                        "type": "album",
+                        "uri": "spotify:album:0EfUKn64vJoiRlRXFVtcT8"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4St65YtRYE8w73lrc1GNKM"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/4St65YtRYE8w73lrc1GNKM",
+                            "id": "4St65YtRYE8w73lrc1GNKM",
+                            "name": "Red Hot Chili Peppers Tribute Band",
+                            "type": "artist",
+                            "uri": "spotify:artist:4St65YtRYE8w73lrc1GNKM"
+                        }
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 266466,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "GBKTX0901797"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/4y6x2tt04hNapK11577rn8"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/4y6x2tt04hNapK11577rn8",
+                    "id": "4y6x2tt04hNapK11577rn8",
+                    "is_local": false,
+                    "is_playable": true,
+                    "name": "Under the Bridge",
+                    "popularity": 3,
+                    "preview_url": "https://p.scdn.co/mp3-preview/24bf3b383d0d83b14425024b63f2b43ba69ea8c9?cid=2e581de7a4de43ea90e2ede13f73f090",
+                    "track_number": 24,
+                    "type": "track",
+                    "uri": "spotify:track:4y6x2tt04hNapK11577rn8"
+                }
+            ],
+            "limit": 20,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 7
+        }
+    },
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=7200",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "Accept, Authorization, Origin, Content-Type, Retry-After",
+        "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE, PATCH",
+        "access-control-allow-credentials": "true",
+        "access-control-max-age": "604800",
+        "content-encoding": "gzip",
+        "date": "Sat, 21 Jul 2018 23:39:19 GMT",
+        "via": "1.1 google",
+        "alt-svc": "clear",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+    },
+    "statusCode": 200
+}

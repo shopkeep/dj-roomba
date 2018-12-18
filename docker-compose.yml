@@ -1,0 +1,55 @@
+version: '3'
+
+services:
+  service: &default
+    build:
+      context: .
+    command: sh -c "npm start"
+    ports:
+      - 9000:9000
+    environment:
+      - SLACK_BOT_TOKEN
+      - SPOTIFY_CLIENT_ID
+      - SPOTIFY_CLIENT_SECRET
+      - MUSIXMATCH_TOKEN
+      - LOGGING_LEVEL
+
+      - LOCATION_1_NAME
+      - LOCATION_1_TIMEZONE
+      - LOCATION_1_SONOS_ADDRESS
+      - LOCATION_1_SPOTIFY_REGION
+      - LOCATION_1_SPOTIFY_MARKET
+      - LOCATION_1_DEFAULT_VOLUME
+
+      - LOCATION_2_NAME
+      - LOCATION_2_TIMEZONE
+      - LOCATION_2_SONOS_ADDRESS
+      - LOCATION_2_SPOTIFY_REGION
+      - LOCATION_2_SPOTIFY_MARKET
+      - LOCATION_2_DEFAULT_VOLUME
+
+      - LOCATION_3_NAME
+      - LOCATION_3_TIMEZONE
+      - LOCATION_3_SONOS_ADDRESS
+      - LOCATION_3_SPOTIFY_REGION
+      - LOCATION_3_SPOTIFY_MARKET
+      - LOCATION_3_DEFAULT_VOLUME
+
+      - LOCATION_4_NAME
+      - LOCATION_4_TIMEZONE
+      - LOCATION_4_SONOS_ADDRESS
+      - LOCATION_4_SPOTIFY_REGION
+      - LOCATION_4_SPOTIFY_MARKET
+      - LOCATION_4_DEFAULT_VOLUME
+
+      - LOCATION_5_NAME
+      - LOCATION_5_TIMEZONE
+      - LOCATION_5_SONOS_ADDRESS
+      - LOCATION_5_SPOTIFY_REGION
+      - LOCATION_5_SPOTIFY_MARKET
+      - LOCATION_5_DEFAULT_VOLUME
+
+  test:
+    build:
+      context: .
+    command: sh -c "npm run lint && npm test"

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert-to-song-object converts a other song from sonos to general song object 1`] = `
+Object {
+  "album": Object {
+    "id": "album-art?for=currents",
+    "image": "https://example.com/album-art?for=currents",
+    "name": "Currents",
+  },
+  "artist": "Tame Impala",
+  "duration": 216,
+  "id": "unknown-my-service:currents:tame-impala:the-less-i-know-the-better",
+  "name": "The Less I Know The Better",
+  "position": 189,
+  "url": "",
+}
+`;
+
+exports[`convert-to-song-object converts a spotify song from sonos to general song object 1`] = `
+Object {
+  "album": Object {
+    "id": "/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a45RLvNvLYoSPTuTebvEPLK%3fsid%3d12%26flags%3d8224%26sn%3d2",
+    "image": "http://10.42.8.69:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a45RLvNvLYoSPTuTebvEPLK%3fsid%3d12%26flags%3d8224%26sn%3d2",
+    "name": "Live At Bells",
+  },
+  "artist": "Greensky Bluegrass",
+  "duration": 282,
+  "id": "45RLvNvLYoSPTuTebvEPLK",
+  "name": "Road to Nowhere",
+  "position": 240,
+  "url": "https://open.spotify.com/track/45RLvNvLYoSPTuTebvEPLK",
+}
+`;

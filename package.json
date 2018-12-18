@@ -1,0 +1,28 @@
+{
+  "name": "dj-roomba",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Slack bot for playing music on Sonos",
+  "scripts": {
+    "start": "bot-scripts start",
+    "test": "bot-scripts test",
+    "lint": "bot-scripts lint"
+  },
+  "dependencies": {
+    "@shopkeep/bot-scripts": "^1.1.0",
+    "axios": "^0.18.0",
+    "color-hash": "^1.0.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "moment-timezone": "^0.5.23",
+    "promise-retry": "^1.1.1",
+    "sonos": "^1.7.0",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "author": "ShopKeep <developers@shopkeep.com> (http://shopkeep.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shopkeep/dj-roomba"
+  },
+  "license": "MIT"
+}
