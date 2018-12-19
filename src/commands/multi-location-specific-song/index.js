@@ -1,3 +1,4 @@
+const _ = require("lodash");
 const { actOnSpecificSong } = require("../utils");
 
 module.exports = function(
@@ -12,19 +13,21 @@ module.exports = function(
     const isDryRun = !!message.match[1];
     const track = message.match[2].trim();
     const artist = message.match[3].trim();
-    const locationName = message.match[4];
 
-    actOnSpecificSong(
-      library,
-      locations,
-      displaySongChoice,
-      action,
-      isDryRun,
-      track,
-      artist,
-      locationName,
-      bot,
-      message
-    );
+    _.forEach(locations, function(location) {
+      const locationName = location.name;
+      actOnSpecificSong(
+        library,
+        locations,
+        displaySongChoice,
+        action,
+        isDryRun,
+        track,
+        artist,
+        locationName,
+        bot,
+        message
+      );
+    });
   });
 };
