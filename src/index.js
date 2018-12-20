@@ -11,6 +11,9 @@ const customEmojis = {
   "queue `song title` by `artist`": ":woman-with-bunny-ears-partying:",
   "queue `song title or artist`": ":man-with-bunny-ears-partying:",
   "queue `spotify:track:spotify-track-uuid`": ":dancers:",
+  "broadcast `song title` by `artist`": ":loudspeaker:",
+  "broadcast `song title or artist`": ":loud_sound:",
+  "broadcast `spotify:track:spotify-track-uuid`": ":speaker:",
   pause: ":double_vertical_bar:",
   "show playing": ":speaking_head_in_silhouette:",
   "show queue": ":bouquet:"

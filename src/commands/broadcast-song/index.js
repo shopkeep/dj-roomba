@@ -25,11 +25,11 @@ const displaySongChoice = async function(
 const init = function(listen, library, locations) {
   /*
    * Specific track search command, to queue song.  Queues the song in ALL locations.
-   * eg. @djroomba deploy-choon Under the Bridge by Red Hot Chili Peppers
-   * eg. @djroomba deploy-choon "Me and Julio down by the schoolyard" by "Paul Simon"
+   * eg. @djroomba broadcast Under the Bridge by Red Hot Chili Peppers
+   * eg. @djroomba broadcast "Me and Julio down by the schoolyard" by "Paul Simon"
    */
   const queueSpecificSong =
-    '(dry run )?deploy-choon "?([^"]+)"? by "?([^"]+?)"?';
+    '(dry run )?broadcast "?([^"]+)"? by "?([^"]+?)"?';
   multiLocationSpecificSong(
     listen,
     library,
@@ -41,10 +41,10 @@ const init = function(listen, library, locations) {
 
   /*
    * Spotify track search command, to queue song
-   * eg. @djroomba deploy-choon spotify:track:3d9DChrdc6BOeFsbrZ3Is0
+   * eg. @djroomba broadcast spotify:track:3d9DChrdc6BOeFsbrZ3Is0
    */
   const queueSpotifySong =
-    "(dry run )?deploy-choon ['`\"]?<spotify:track:([^>]+)>['`\"]?";
+    "(dry run )?broadcast ['`\"]?<spotify:track:([^>]+)>['`\"]?";
   multiLocationSpotifySong(
     listen,
     library,
@@ -56,7 +56,7 @@ const init = function(listen, library, locations) {
 
   /*
    * Wildcard track search command, to queue song
-   * eg. @djroomba deploy-choon Under the Bridge
+   * eg. @djroomba broadcast Under the Bridge
    */
   const queueWildcardSong = "(dry run )?queue (.+?)";
   multiLocationWildcardSong(

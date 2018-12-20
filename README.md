@@ -127,6 +127,18 @@ Queues the best match based on the title or artist provided.
 
 Queues a specific Spotify track.
 
+### broadcast `song title` by `artist`
+
+Queues the matched song based on the title and artist provided in all locations.
+
+### broadcast `song title or artist`
+
+Queues the best match based on the title or artist provided in all locations.
+
+### broadcast `spotify:track:spotify-track-uuid`
+
+Queues a specific Spotify track in all locations.
+
 ### pause(, in `location`)
 
 Pauses currently playing song.

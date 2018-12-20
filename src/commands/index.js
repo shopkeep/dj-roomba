@@ -2,7 +2,7 @@ const initPlaySongCommands = require("./play-song");
 const initQueueSongCommands = require("./queue-song");
 const initPauseSongCommands = require("./pause-song");
 const initViewSongsCommands = require("./view-songs");
-const initDeployChoonCommands = require("./deploy-choon");
+const initBroadcastSongCommands = require("./broadcast-song");
 
 const init = function({ listen }, library, locations) {
   logger.debug("Setting up commands");
@@ -11,7 +11,7 @@ const init = function({ listen }, library, locations) {
   initQueueSongCommands(listen, library, locations);
   initPauseSongCommands(listen, library, locations);
   initViewSongsCommands(listen, library, locations);
-  initDeployChoonCommands(listen, library, locations);
+  initBroadcastSongCommands(listen, library, locations);
 };
 
 module.exports = init;
