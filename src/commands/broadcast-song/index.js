@@ -28,43 +28,43 @@ const init = function(listen, library, locations) {
    * eg. @djroomba broadcast Under the Bridge by Red Hot Chili Peppers
    * eg. @djroomba broadcast "Me and Julio down by the schoolyard" by "Paul Simon"
    */
-  const queueSpecificSong =
+  const broadcastSpecificSong =
     '(dry run )?broadcast "?([^"]+)"? by "?([^"]+?)"?';
   multiLocationSpecificSong(
     listen,
     library,
     locations,
     displaySongChoice,
-    queueSpecificSong,
+    broadcastSpecificSong,
     "queue"
   );
 
   /*
-   * Spotify track search command, to queue song
+   * Spotify track search command, to queue song.  Queues the song in ALL locations.
    * eg. @djroomba broadcast spotify:track:3d9DChrdc6BOeFsbrZ3Is0
    */
-  const queueSpotifySong =
+  const broadcastSpotifySong =
     "(dry run )?broadcast ['`\"]?<spotify:track:([^>]+)>['`\"]?";
   multiLocationSpotifySong(
     listen,
     library,
     locations,
     displaySongChoice,
-    queueSpotifySong,
+    broadcastSpotifySong,
     "queue"
   );
 
   /*
-   * Wildcard track search command, to queue song
+   * Wildcard track search command, to queue song in ALL locations.
    * eg. @djroomba broadcast Under the Bridge
    */
-  const queueWildcardSong = "(dry run )?queue (.+?)";
+  const broadcastWildcardSong = "(dry run )?broadcast (.+?)";
   multiLocationWildcardSong(
     listen,
     library,
     locations,
     displaySongChoice,
-    queueWildcardSong,
+    broadcastWildcardSong,
     "queue"
   );
 };
