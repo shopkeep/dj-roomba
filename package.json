@@ -12,7 +12,7 @@
     "@shopkeep/bot-scripts": "^1.2.0",
     "axios": "^0.18.1",
     "color-hash": "^1.0.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "moment": "^2.23.0",
     "moment-timezone": "^0.5.23",
     "promise-retry": "^1.1.1",
